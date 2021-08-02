@@ -29,7 +29,6 @@ const Home = () => {
   const onRadioChange = ev => {
     setSearchOption(ev.target.value);
   };
-  console.log(searchOption);
 
   const renderResults = () => {
     if (results && results.length === 0) {
